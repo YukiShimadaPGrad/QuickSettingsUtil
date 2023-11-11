@@ -1,0 +1,48 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/user/Documents/IntelliJIDEAProjects/keystore')
+            storePassword 'password'
+            keyAlias 'alias'
+            keyPassword 'password'
+        }
+    }
+    namespace 'suyasuya.quicksettingsutil'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "suyasuya.quicksettingsutil"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+}

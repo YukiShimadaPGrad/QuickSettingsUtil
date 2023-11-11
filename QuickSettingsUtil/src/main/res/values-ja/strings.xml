@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">クイック設定ユーティリティ</string>
+    <string name="tile_label">音量調節</string>
+    <string name="volume_up">音量を上げる</string>
+    <string name="volume_down">音量を下げる</string>
+    <string name="app_widget_description">音量を変更する</string>
+    <string name="sound_setting_widget_label">サウンド設定</string>
+</resources>

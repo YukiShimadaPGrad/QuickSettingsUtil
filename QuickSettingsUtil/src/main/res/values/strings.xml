@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuickSettingsUtil</string>
+    <string name="tile_label">Sound Volume</string>
+    <string name="volume_up">Volume up</string>
+    <string name="volume_down">Volume down</string>
+    <string name="app_widget_description">Change sound volume</string>
+    <string name="sound_setting_widget_label">Sound setting</string>
+</resources>
